@@ -30,7 +30,6 @@ class Usuarios {
 
     borrarPersona(id){ //reemplaza el arreglo eliminando la persona
         let personaBorrada= this.getPersona(id)
-        
         this.personas= this.personas.filter(persona=> { 
             return persona.id !== id
         })
